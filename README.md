@@ -32,18 +32,18 @@ You will need to add your own MONGO_URI to the dotenv file in order to create an
  node src/app.js --delete --title "Movie/Tv Show"
  ```
 
- ### Find a specific Title
+ ### Find a specific title
  
  ```bash
  node src/app.js --findT --title "Movie/Tv Show"
  ```
  
- ### Find a specific Actor
+ ### Find a specific actor
  
  ```bash
  node src/app.js --findA --actor "actor"
  ```
- ### Find titles with no actor.
+ ### Find titles with no actor
  
  ```bash
  node src/app.js --filterNoActor
